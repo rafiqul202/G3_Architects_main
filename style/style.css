@@ -85,12 +85,14 @@ body{
   align-items: center;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: auto auto auto auto   ;
+  grid-template-columns: repeat(4, auto );
+  grid-gap: 2rem;
  
   /* grid-template-rows: repeat( 1fr 1fr ); */
 }
 
 .team_img{
+
 /* grid-template-columns: repeat(2, 1fr 1fr); */
 }
 /* section _1 end */
