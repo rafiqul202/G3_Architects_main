@@ -83,7 +83,7 @@ body {
   /* grid-template-rows: repeat( 1fr 1fr ); */
 }
 
-.highlist{
+.highlist {
   color: #ff900e;
 }
 .team_img {
@@ -107,8 +107,7 @@ body {
 .contain img {
   /* margin-left: 300px;
    */
-     margin-top: 100px;
-
+  margin-top: 100px;
 }
 .contain_main img {
   height: 100vh;
@@ -205,10 +204,10 @@ footer {
 /* iphone sE @media query design */
 
 @media (max-width: 667px) {
-  body{
+  body {
     width: 100%;
   }
-   .nav .logo .navbar .main_header  {
+  .nav .logo .navbar .main_header {
     width: 90%;
     height: -400px;
     padding-left: 15px;
@@ -223,13 +222,13 @@ footer {
     width: 42%;
     padding-left: 15px;
   }
-  .main_header .btn{
+  .main_header .btn {
     margin-left: 95px;
   }
   .header_img img {
-    padding-left:-15px;
+    padding-left: -15px;
     width: 100%;
-}
+  }
   .header_main .nav {
     flex-direction: column;
   }
@@ -240,47 +239,46 @@ footer {
     text-align: left;
   }
 
-  .quick_list{
+  .quick_list {
     /* padding-left: 5px; */
-   grid-template-columns: repeat(1, 1fr );
+    grid-template-columns: repeat(1, 1fr);
   }
-  .quick_list img{
+  .quick_list img {
     height: auto;
     margin-left: 70px;
-   width: 60%;
-   height: 100px;
+    width: 60%;
+    height: 100px;
   }
-  .team_img img{
+  .team_img img {
     grid-row-gap: 1fr;
     gap: 20px;
     height: 100%;
     margin-top: -10px;
   }
-  .quick_list .main{
+  .quick_list .main {
     padding-left: 10px;
     width: 350px;
   }
- 
+
   .same_fact .menu {
-   
     margin-left: 90px;
   }
- .contain{
-  flex-direction: column;
- }
+  .contain {
+    flex-direction: column;
+  }
 
- .architect{
-  /* width: 25%; */
+  .architect {
+    /* width: 25%; */
     /* text-align: center; */
     width: 90%;
     margin-left: 18px;
- }
+  }
   /* contain start */
-  .contain  .contain_main {
+  .contain .contain_main {
     width: 50%;
     padding-left: 15px;
   }
-  
+
   .contain .main {
     width: 350px;
   }
@@ -301,13 +299,14 @@ footer {
   /* same_fact start */
   .same_fact {
     /* margin-left: 50; */
-   flex-direction: column;
+    flex-direction: column;
   }
-  
-  .last_section  {
+
+  .last_section {
     margin-top: -0px;
-    width: 90% ;
-   /* flex-direction: column; */
+    width: 90%;
+    padding-left: 16px; 
+    /* flex-direction: column; */
   }
 
   footer {
