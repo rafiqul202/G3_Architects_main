@@ -94,6 +94,7 @@ body {
 /* .contain start */
 .contain {
   display: flex;
+  gap: 100px;
 }
 .contain_main {
   margin-top: 100px;
@@ -104,7 +105,10 @@ body {
 }
 
 .contain img {
-  margin-left: 300px;
+  /* margin-left: 300px;
+   */
+     margin-top: 100px;
+
 }
 .contain_main img {
   height: 100vh;
@@ -201,24 +205,30 @@ footer {
 /* iphone sE @media query design */
 
 @media (max-width: 667px) {
-  /* body {
-    width: 600px;
-  } */
-  .header_main  {
-    width: 80%;
+  body{
+    width: 100%;
+  }
+   .nav .logo .navbar .main_header  {
+    width: 90%;
     height: -400px;
     padding-left: 15px;
     /* width: 660px; */
   }
   .main_header h1 {
-    width: 30%;
+    padding-left: 15px;
+    width: 40%;
   }
   .main_header p {
-    width: 32%;
+    padding-top: 20px;
+    width: 42%;
+    padding-left: 15px;
+  }
+  .main_header .btn{
+    margin-left: 95px;
   }
   .header_img img {
     padding-left:-15px;
-    width: 400px;
+    width: 100%;
 }
   .header_main .nav {
     flex-direction: column;
@@ -233,17 +243,47 @@ footer {
   
 
   .quick_list{
-   /* display: block; */
-    /* grid-template-columns: 1fr; */
+    /* padding-left: 5px; */
+   grid-template-columns: repeat(1, 1fr );
   }
+  .quick_list img{
+    height: auto;
+    margin-left: 70px;
+   width: 60%;
+   height: 100px;
+  }
+  .team_img img{
+    grid-row-gap: 1fr;
+    gap: 20px;
+    height: 100%;
+    margin-top: -10px;
+  }
+  .quick_list .main{
+    padding-left: 10px;
+    width: 350px;
+  }
+ 
   .same_fact .menu {
    
     margin-left: 90px;
   }
+ .contain{
+  flex-direction: column;
+ }
 
+
+
+
+
+ .architect{
+  /* width: 25%; */
+    /* text-align: center; */
+    width: 90%;
+    margin-left: 18px;
+ }
   /* contain start */
   .contain  .contain_main {
-    width: 25%;
+    width: 50%;
     padding-left: 15px;
   }
   
@@ -260,7 +300,7 @@ footer {
   }
 
   .heading {
-    width: 25%;
+    width: 60%;
     padding-left: 15px;
   }
   /* contain end */
@@ -271,13 +311,15 @@ footer {
   }
   
   .last_section  {
-    width: 25% ;
+    margin-top: -0px;
+    width: 90% ;
    /* flex-direction: column; */
   }
 
   footer {
     text-align: center;
-    width: 380px;
+    width: 100%;
+    margin-bottom: 20px;
     padding-right: 0px;
   }
   /* same_fact end */
