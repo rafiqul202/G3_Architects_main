@@ -219,6 +219,8 @@ footer{
     width: 667px;
   }
   .header_main {
+    width: 667px;
+    height: -400px;
     padding-left: 15px;
     /* width: 660px; */
 
@@ -239,10 +241,15 @@ footer{
   }
 
   .quick_list{
+    grid-row-gap: 2fr;
     margin-top: 25px;
     grid-gap: 20px;
     padding: 5px 15px;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .quick_list .team_img{
+    margin-left: 20px;
+    grid-template-rows:auto auto auto;
   }
 
   /* contain start */
@@ -250,6 +257,11 @@ footer{
     width: 660px;
     width: auto;
     flex-direction: column;
+  }
+  .contain_main {
+   padding-left: 25px;
+   padding-bottom: 10px;
+
   }
 .contain .main{
   width: 660px;
@@ -264,17 +276,21 @@ footer{
   }
   
   .heading{
+    padding-left:25px ;
     margin-top: 1px;
   }
   /* contain end */
   /* same_fact start */
   .same_fact{
+   padding-left: 15px;
     gap: 20px;
     justify-content: space-between;
     flex-direction: row;
     /* margin-right: 5px; */
     /* flex-wrap: wrap; */
     margin-top: -60px;
+  }
+  .same_fact .menu{
   }
   .last_section{
     margin-top: -40px;
