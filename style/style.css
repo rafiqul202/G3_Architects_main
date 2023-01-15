@@ -35,6 +35,7 @@ body{
   margin: auto;
 }
 
+
 /* header navbar section start  */
 .header_main{
   height: 1322px;
@@ -63,7 +64,7 @@ body{
 .main_header{
   text-align: center;
   margin-top: 100px;
-   background: #f0d3b3;
+   /* background: #f0d3b3; */
 
 }
 .main_header >p{
@@ -200,4 +201,92 @@ footer{
   text-align: center;
   
 }
+
+.btn_1{
+  display: none;
+}
+
+
 /* footer section end */
+
+/* add the media quary start */
+
+
+                /* iphone sE @media query design */
+
+@media  (max-width:667px) {
+  body{
+    width: 667px;
+  }
+  .header_main {
+    padding-left: 15px;
+    /* width: 660px; */
+
+  }
+  .header_main .nav {
+    flex-direction: column;
+  }
+  .navbar ul li{
+    display: block;
+  }
+  .main_header{
+    text-align: left;
+  }
+
+  .header_img img{
+    padding-right: 20px;
+    width: 667px;
+  }
+
+  .quick_list{
+    margin-top: 25px;
+    grid-gap: 20px;
+    padding: 5px 15px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* contain start */
+  .contain{
+    width: 660px;
+    width: auto;
+    flex-direction: column;
+  }
+.contain .main{
+  width: 660px;
+}
+  .contain img{
+    /* padding-right: 30px; */
+    /* height:00px; */
+    /* align-items: flex-start; */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .heading{
+    margin-top: 1px;
+  }
+  /* contain end */
+  /* same_fact start */
+  .same_fact{
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    /* margin-right: 5px; */
+    /* flex-wrap: wrap; */
+    margin-top: -60px;
+  }
+  .last_section{
+    margin-top: -40px;
+  }
+
+  footer{
+    margin-right: -15px;
+    margin-bottom: -60px;
+  }
+  /* same_fact end */
+}
+
+  
+
+/* add the media quary end */
