@@ -1,55 +1,50 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-ul{
+ul {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
-h2{
-    font-size: 35px;
-    font-weight: 800;
-    
-    
-
+h2 {
+  font-size: 35px;
+  font-weight: 800;
 }
-h1{
+h1 {
   font-size: 50px;
 }
-.btn{
+.btn {
   color: white;
-  background-color: #FF900E;
+  background-color: #ff900e;
   width: 180px;
   height: 64px;
   border: none;
-  border-radius:10px ;
+  border-radius: 10px;
   margin: 35px 0 35px 0;
 }
-body{
+body {
   width: 1440px;
   margin: auto;
 }
 
-
 /* header navbar section start  */
-.header_main{
+.header_main {
   height: 1322px;
   /* width: 1300px; */
   background-color: #f0d3b3;
 }
-.header_main{
-    padding-top: 63px;
+.header_main {
+  padding-top: 63px;
   /* background-color: #f0d3b3; */
 }
-.logo{
+.logo {
   font-size: 33px;
 }
-.nav{
+.nav {
   padding: 0 25px;
   display: flex;
   justify-content: space-between;
@@ -58,105 +53,100 @@ body{
 .navbar ul li {
   display: inline-block;
 }
-.navbar ul li a{
+.navbar ul li a {
   padding-left: 35px;
 }
-.main_header{
+.main_header {
   text-align: center;
   margin-top: 100px;
-   /* background: #f0d3b3; */
-
+  /* background: #f0d3b3; */
 }
-.main_header >p{
-  margin:  25px  0px  0px 0px;
+.main_header > p {
+  margin: 25px 0px 0px 0px;
 }
-.header_img{
- 
+.header_img {
   height: 100vh;
   border-radius: 8px;
   margin-top: 80px;
   /* margin-bottom: 20px; */
-  
 }
 
 /* header navbar section end  */
 
 /* section _1 start */
-.quick_list{
+.quick_list {
   align-items: center;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: repeat(4, auto );
+  grid-template-columns: repeat(4, auto);
   grid-gap: 2rem;
- 
   /* grid-template-rows: repeat( 1fr 1fr ); */
 }
 
-.team_img{
-
-/* grid-template-columns: repeat(2, 1fr 1fr); */
+.highlist{
+  color: #ff900e;
+}
+.team_img {
+  /* grid-template-columns: repeat(2, 1fr 1fr); */
 }
 /* section _1 end */
 
 /* .contain start */
- .contain{
+.contain {
   display: flex;
- }
- .contain_main{
+}
+.contain_main {
   margin-top: 100px;
-  
- }
- .contain_main > h2{
+}
+.contain_main > h2 {
   margin: 30px 0px;
   /* position: relative; */
- }
+}
 
- 
- .contain img{
+.contain img {
   margin-left: 300px;
- }
- .contain_main img{
+}
+.contain_main img {
   height: 100vh;
- }
+}
 
-.contain_main .main{
+.contain_main .main {
   margin: 15px 0;
   padding: 40px 20px;
   /* box-shadow: 10px 10px white; */
-  background: #FFFFFF;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
 }
- .btn_1{
+.btn_1 {
   border-radius: 15px;
   height: 200px;
   width: 342px;
-  background-color: #FF900E;
+  background-color: #ff900e;
   color: white;
-  margin-left:800px;
+  margin-left: 800px;
   margin-top: -120px;
   border: none;
   align-items: flex-end;
-  
 }
 /* .contain end */
 
 /* section_end start */
-.heading{
+.heading {
   margin: 130px 0;
 }
-.heading h2{
+.heading h2 {
   margin-bottom: 20px;
 }
-.same_fact{
+.same_fact {
   display: flex;
   justify-content: space-between;
 }
-.same_fact img{
+.same_fact img {
   height: 46px;
   width: 46px;
 }
-.same_fact .menu{
+.same_fact .menu {
   margin-bottom: 150px;
   height: 150px;
   width: 200px;
@@ -170,103 +160,97 @@ border-radius: 8px;
   -o-border-radius: 10px;
 }
 
-.same_fact  :hover{
-   box-shadow: 0px 4px 30px rgba(211, 31, 31, 0.791);
-
+.same_fact :hover {
+  box-shadow: 0px 4px 30px rgba(211, 31, 31, 0.791);
 }
 /* section_end end */
 
 /* last-section start  */
-.last_section{
+.last_section {
   text-align: center;
   margin: 120px 0 60px 0;
 }
-.last_section h2{
+.last_section h2 {
   margin-bottom: 30px;
 }
-.last_section img{
+.last_section img {
   align-content: center;
   margin: 50px 50px;
 }
 /* last-section end */
 
 /* footer section start  */
-footer{
+footer {
   height: 100px;
   background-color: #f0d3b3;
   margin-bottom: 200px;
 }
-.footer p{
- padding-top: 40px;
+.footer p {
+  padding-top: 40px;
   text-align: center;
-  
 }
 
-.btn_1{
+.btn_1 {
   display: none;
 }
-
 
 /* footer section end */
 
 /* add the media quary start */
 
+/* iphone sE @media query design */
 
-                /* iphone sE @media query design */
-
-@media  (max-width:667px) {
-  body{
-    width: 667px;
-  }
-  .header_main {
-    width: 667px;
+@media (max-width: 667px) {
+  /* body {
+    width: 600px;
+  } */
+  .header_main  {
+    width: 80%;
     height: -400px;
     padding-left: 15px;
     /* width: 660px; */
-
   }
+  .main_header h1 {
+    width: 30%;
+  }
+  .main_header p {
+    width: 32%;
+  }
+  .header_img img {
+    padding-left:-15px;
+    width: 400px;
+}
   .header_main .nav {
     flex-direction: column;
   }
-  .navbar ul li{
+  .navbar ul li {
     display: block;
   }
-  .main_header{
+  .main_header {
     text-align: left;
   }
 
-  .header_img img{
-    padding-right: 20px;
-    width: 667px;
-  }
+  
 
   .quick_list{
-    grid-row-gap: 2fr;
-    margin-top: 25px;
-    grid-gap: 20px;
-    padding: 5px 15px;
-    grid-template-columns: repeat(1, 1fr);
+   /* display: block; */
+    /* grid-template-columns: 1fr; */
   }
-  .quick_list .team_img{
-    margin-left: 20px;
-    grid-template-rows:auto auto auto;
+  .same_fact .menu {
+   
+    margin-left: 90px;
   }
 
   /* contain start */
-  .contain{
-    width: 660px;
-    width: auto;
-    flex-direction: column;
+  .contain  .contain_main {
+    width: 25%;
+    padding-left: 15px;
   }
-  .contain_main {
-   padding-left: 25px;
-   padding-bottom: 10px;
-
+  
+  .contain .main {
+    width: 350px;
   }
-.contain .main{
-  width: 660px;
-}
-  .contain img{
+  .contain img {
     /* padding-right: 30px; */
     /* height:00px; */
     /* align-items: flex-start; */
@@ -274,35 +258,29 @@ footer{
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  
-  .heading{
-    padding-left:25px ;
-    margin-top: 1px;
+
+  .heading {
+    width: 25%;
+    padding-left: 15px;
   }
   /* contain end */
   /* same_fact start */
-  .same_fact{
-   padding-left: 15px;
-    gap: 20px;
-    justify-content: space-between;
-    flex-direction: row;
-    /* margin-right: 5px; */
-    /* flex-wrap: wrap; */
-    margin-top: -60px;
+  .same_fact {
+    /* margin-left: 50; */
+   flex-direction: column;
   }
-  .same_fact .menu{
-  }
-  .last_section{
-    margin-top: -40px;
+  
+  .last_section  {
+    width: 25% ;
+   /* flex-direction: column; */
   }
 
-  footer{
-    margin-right: -15px;
-    margin-bottom: -60px;
+  footer {
+    text-align: center;
+    width: 380px;
+    padding-right: 0px;
   }
   /* same_fact end */
 }
-
-  
 
 /* add the media quary end */
