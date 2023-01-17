@@ -262,6 +262,10 @@ footer {
 
   .same_fact .menu {
     margin-left: 90px;
+    margin-top: -110px;
+  }
+  .heading{
+    margin-bottom: 220px;
   }
   .contain {
     flex-direction: column;
