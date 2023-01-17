@@ -205,7 +205,7 @@ footer {
 
 @media (max-width: 667px) {
   body {
-    width: 100%;
+    width:auto;
     height: 100vh;
   }
   .nav .logo .navbar .main_header {
