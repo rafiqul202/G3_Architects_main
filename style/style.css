@@ -275,12 +275,12 @@ footer {
   }
   /* contain start */
   .contain .contain_main {
-    width: 50%;
+    width: 90%;
     padding-left: 15px;
   }
 
   .contain .main {
-    width: 350px;
+    width: 100%;
   }
   .contain img {
     /* padding-right: 30px; */
@@ -305,7 +305,7 @@ footer {
   .last_section {
     margin-top: -0px;
     width: 90%;
-    padding-left: 16px; 
+    padding-left: 16px;
     /* flex-direction: column; */
   }
 
