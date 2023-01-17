@@ -214,6 +214,8 @@ footer {
     padding-left: 15px;
     /* width: 660px; */
   }
+
+ 
   .main_header h1 {
     padding-left: 15px;
     width: 40%;
@@ -228,7 +230,7 @@ footer {
   }
   .header_img img {
     padding-left: -15px;
-    width: 100%;
+    width: 99%;
   }
   .header_main .nav {
     flex-direction: column;
@@ -258,7 +260,7 @@ footer {
   }
   .quick_list .main {
     padding-left: 10px;
-    width: 350px;
+    width: 100%;
   }
 
   .same_fact .menu {
@@ -316,7 +318,7 @@ footer {
 
   footer {
     text-align: center;
-    width: 98%;
+    width: 100%;
     margin-bottom: 20px;
     padding-right: 0px;
   }
