@@ -203,7 +203,7 @@ footer {
 
 /* iphone sE @media query design */
 
-@media (max-width: 667px) {
+@media (max-width: 576px) {
   body {
     width: 100%;
     /* height: 100vh; */
